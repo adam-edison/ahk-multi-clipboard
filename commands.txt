@@ -1,0 +1,30 @@
+# Use Ctrl + ; 
+# Or use .;
+# To access clipboard commands
+# Then use the below as a guide to set your own clipboard slots:
+# command, description, function-call, argument (optional)
+'1, Set Clipboard Slot 1, setClipboard, 1
+'2, Set Clipboard Slot 2, setClipboard, 2
+'3, Set Clipboard Slot 3, setClipboard, 3
+'4, Set Clipboard Slot 4, setClipboard, 4
+'5, Set Clipboard Slot 5, setClipboard, 5
+'6, Set Clipboard Slot 6, setClipboard, 6
+'7, Set Clipboard Slot 7, setClipboard, 7
+'8, Set Clipboard Slot 8, setClipboard, 8
+'9, Set Clipboard Slot 9, setClipboard, 9
+'0, Set Clipboard Slot 9, setClipboard, 0
+'name, Set Clipboard Slot a, setClipboard, name
+1, Get Clipboard Slot 1, getClipboard, 1
+2, Get Clipboard Slot 2, getClipboard, 2
+3, Get Clipboard Slot 3, getClipboard, 3
+4, Get Clipboard Slot 4, getClipboard, 4
+5, Get Clipboard Slot 5, getClipboard, 5
+6, Get Clipboard Slot 6, getClipboard, 6
+7, Get Clipboard Slot 7, getClipboard, 7
+8, Get Clipboard Slot 8, getClipboard, 8
+9, Get Clipboard Slot 9, getClipboard, 9
+0, Get Clipboard Slot 9, getClipboard, 0
+name, Get Clipboard Slot a, getClipboard, name
+rls, Reload Script, reload
+d, Duplicate Current Line, duplicateLine, 1
+d2, Duplicate Current Line Twice, duplicateLine, 2
